@@ -1,8 +1,11 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import "@fortawesome/fontawesome-free/css/all.min.css";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 import "../src/styles/tailwind.css";
 
 // import Landing from "views/Landing.tsx";
