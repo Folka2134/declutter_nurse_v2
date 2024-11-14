@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbars/AuthNavbar";
 import FooterAdmin from "../components/Footers/FooterAdmin";
 // import Navbar from "./components/Navbars/AuthNavbar";
@@ -6,7 +5,7 @@ import FooterAdmin from "../components/Footers/FooterAdmin";
 const About = () => {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main className="profile-page">
         <section className="relative block h-500-px">
           <div

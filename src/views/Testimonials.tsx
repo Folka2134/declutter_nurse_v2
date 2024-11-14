@@ -1,11 +1,9 @@
-import React from "react";
-
 import Navbar from "../components/Navbars/AuthNavbar.js";
-import Footer from "../components/Footers/Footer";
+import FooterAdmin from "../components/Footers/FooterAdmin.tsx";
 const Testimonials = () => {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main className="profile-page">
         <section className="relative block h-500-px">
           <div
@@ -135,7 +133,7 @@ const Testimonials = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <FooterAdmin />
     </>
   );
 };

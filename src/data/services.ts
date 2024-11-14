@@ -1,4 +1,10 @@
-const services = [
+export type ServiceType = {
+  name: string;
+  description: string;
+  icon: string;
+};
+
+const services: ServiceType[] = [
   {
     name: "Home Decluttering Sessions",
     description:

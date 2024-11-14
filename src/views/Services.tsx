@@ -1,12 +1,13 @@
-import React from "react";
 import Footer from "../components/Footers/FooterAdmin";
 import Navbar from "../components/Navbars/AuthNavbar";
-import services from "../data/services";
+
+import services from "../data/services.ts";
+import { ServiceType } from "../data/services.ts";
 
 const Services = () => {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main className="profile-page">
         <section className="relative block h-500-px">
           <div
@@ -62,7 +63,7 @@ const Services = () => {
                 </div>
                 <div className="py-2 border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
-                    {services.map((service) => (
+                    {services.map((service: ServiceType) => (
                       <div className="lg:pt-2 pt-6 w-full md:w-4/12 px-4 text-center">
                         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 rounded-lg">
                           <div className="px-4 py-5 flex-auto">
